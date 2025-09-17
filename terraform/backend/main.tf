@@ -1,9 +1,9 @@
 provider "aws" {
-  region = "us-east-1"
+  region = "ap-south-1"
 }
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "souvik-tf-state-20250917" # must be globally unique
+  bucket = "ssouvik-tf-state-mumbai-20250917-001" # must be globally unique
 
   tags = {
     Name = "terraform-state-bucket"

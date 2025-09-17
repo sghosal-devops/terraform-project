@@ -8,3 +8,9 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+
+variable "availability_zone" {
+  description = "Availability zone for the public subnet"
+  type        = string
+  default     = "ap-south-1a"  # default to Mumbai AZ
+}
