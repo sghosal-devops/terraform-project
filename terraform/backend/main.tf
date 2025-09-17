@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "my-terraform-state-bucket-12345" # must be globally unique
+  bucket = "souvik-tf-state-20250917" # must be globally unique
 
   tags = {
     Name = "terraform-state-bucket"
